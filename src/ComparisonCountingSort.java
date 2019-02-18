@@ -32,9 +32,10 @@ public class ComparisonCountingSort {
     {
         ComparisonCountingSort ob = new ComparisonCountingSort();
         int arr[] = {62,31,84,96,19,47};
-        arr = ob.sort(arr);
+        int arrSame[] = {1,1};
+        arrSame = ob.sort(arrSame);
         System.out.println("Sorted array");
-        ob.printArray(arr);
+        ob.printArray(arrSame);
     }
 }
 
